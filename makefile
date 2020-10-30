@@ -3,6 +3,6 @@ help:
 	@echo "choose a valid target"
 
 commit:
-	@echo $m
-	@git add *
+	git add *
 	git commit -am "$m"
+	git push
