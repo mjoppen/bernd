@@ -5,4 +5,4 @@ help:
 commit:
 	@echo $m
 	@git add *
-	@git commit -am '$m'
+	@git commit -am "$m"
