@@ -4,5 +4,5 @@ help:
 
 commit:
 	git add *
-	git commit -am "$m"
+	git commit -am '$m'
 	git push
