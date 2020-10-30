@@ -1,2 +1,2 @@
 #!/bin/bash
-make -f /usr/local/share/bernd/makefile $@
+make -f /usr/local/share/bernd/makefile "$@"
