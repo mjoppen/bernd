@@ -4,7 +4,5 @@ help:
 
 commit:
 	@echo $m
-	exit 0
-	git add *
-	git commit -am '$m'
-	git push
+	@git add *
+	@git commit -am '$m'
